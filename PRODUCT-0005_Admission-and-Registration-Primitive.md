@@ -81,4 +81,10 @@ This productive primitive is itself a product and must be admitted and registere
 
 ---
 
+## NOTE (intentional invalid change)
+
+This sentence was added without a version increment to test version discipline.
+
+---
+
 **End of Product 0005 (v0.1)**
