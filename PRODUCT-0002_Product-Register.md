@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 1.5  
+**Version:** 1.6  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -69,94 +69,14 @@ A product exists within the ecology if and only if it is recorded in this regist
 - **Admitted by:** Founding authority
 - **Notes:** First candidate productive primitive
 
-### Entry 0007
-- **Product ID:** PRODUCT-0007
-- **Name:** Violation Record: Unregistered Product Attempt (PRODUCT-0006)
-- **Version admitted:** 0.1
+### Entry 0005-R1
+- **Product ID:** PRODUCT-0005
+- **Name:** Admission and Registration Primitive
+- **Version admitted:** 0.3
 - **Admission date:** 2026-02-09
 - **Admitted by:** Founding authority
-- **Notes:** Records and deprecates unregistered PRODUCT-0006
-
-### Entry 0008
-- **Product ID:** PRODUCT-0008
-- **Name:** Invalid Registration Attempt Record (Unadmitted Draft)
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Records attempted registration without admission
-
-### Entry 0009
-- **Product ID:** PRODUCT-0009
-- **Name:** Versioning Violation Record (Product 0005)
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Records invalid revision without version bump
-
-### Entry 0010
-- **Product ID:** PRODUCT-0010
-- **Name:** Unregistered Reference Target
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Remediation: artefact now registered, reference can be made valid
-
-### Entry 0011
-- **Product ID:** PRODUCT-0011
-- **Name:** Invalid Reference Test
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** References unregistered artefact PRODUCT-0010 as a violation test
-
-### Entry 0012
-- **Product ID:** PRODUCT-0012
-- **Name:** Invalid Reference Violation Record (Product 0011 -> PRODUCT-0010)
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Records invalid reference to unregistered artefact PRODUCT-0010
-
-### Entry 0011-R1
-- **Product ID:** PRODUCT-0011
-- **Name:** Invalid Reference Test
-- **Version admitted:** 0.2
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Revision recorded: reference to PRODUCT-0010 is now valid
-
-### Entry 0015
-- **Product ID:** PRODUCT-0015
-- **Name:** Authority Fork Violation Record (Second Register Attempt)
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Records attempted fork of Product Register authority via PRODUCT-0014
-
-### Entry 0016
-- **Product ID:** PRODUCT-0016
-- **Name:** Import Violation Record (External Artefact)
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Records that imported artefacts have no standing without admission and registration
-
-### Entry 0017
-- **Product ID:** PRODUCT-0017
-- **Name:** Imported Artefact (Admitted)
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Properly admitted form of externally originated material
-
-### Entry 0018
-- **Product ID:** PRODUCT-0018
-- **Name:** Reproduction Test Product
-- **Version admitted:** 0.1
-- **Admission date:** 2026-02-09
-- **Admitted by:** Founding authority
-- **Notes:** Produced deliberately via Product 0005 (reproduction test)
+- **Notes:** Validated via successful reproduction (Product 0018)
 
 ---
 
-**End of Product 0002 (v1.5)**
+**End of Product 0002 (v1.6)**
