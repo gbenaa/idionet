@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 1.2  
+**Version:** 1.3  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -133,6 +133,14 @@ A product exists within the ecology if and only if it is recorded in this regist
 - **Admitted by:** Founding authority
 - **Notes:** Records attempted fork of Product Register authority via PRODUCT-0014
 
+### Entry 0016
+- **Product ID:** PRODUCT-0016
+- **Name:** Import Violation Record (External Artefact)
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Records that imported artefacts have no standing without admission and registration
+
 ---
 
-**End of Product 0002 (v1.2)**
+**End of Product 0002 (v1.3)**
