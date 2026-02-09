@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 0.2  
+**Version:** 0.3  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -50,4 +50,15 @@ A product exists within the ecology if and only if it is recorded in this regist
 
 ---
 
-**End of Product 0002 (v0.2)**
+### Entry 0003
+
+- **Product ID:** PRODUCT-0003A
+- **Name:** Non-Text Test Artefact
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Non-text artefact admitted to demonstrate media generality
+
+---
+
+**End of Product 0002 (v0.3)**
