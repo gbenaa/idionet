@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 0.3  
+**Version:** 0.4  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -61,4 +61,15 @@ A product exists within the ecology if and only if it is recorded in this regist
 
 ---
 
-**End of Product 0002 (v0.3)**
+### Entry 0004
+
+- **Product ID:** PRODUCT-0004
+- **Name:** Self-Binding Governance Constraint
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Constraint binding founding authority to declared admission
+
+---
+
+**End of Product 0002 (v0.4)**
