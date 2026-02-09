@@ -1,7 +1,7 @@
 # Product 0005 — Admission and Registration Primitive
 
-**Version:** 0.2  
-**Status:** Candidate productive primitive  
+**Version:** 0.3  
+**Status:** Validated productive primitive  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
 **Revision mode:** Revision-only (no replacement)
@@ -49,20 +49,17 @@ Both steps are required.
 
 ---
 
-## Provenance
-
-This pattern is derived from the repeated admission of Products 0001 through 0004.
-
----
-
 ## Validation Status
 
-This productive primitive is considered a candidate.
+This productive primitive is **validated**.
 
-It becomes validated only if:
-- it continues to be used without exception,
-- no alternative admission path emerges,
-- and no product is found to exist without both steps.
+### Evidence of validation
+
+- Successfully applied without deviation to produce:
+  - **Product 0018 — Reproduction Test Product**
+- No counterexamples observed.
+- No alternative admission path accepted.
+- All violations remediated only through this primitive.
 
 ---
 
@@ -81,4 +78,4 @@ This productive primitive is itself a product and must be admitted and registere
 
 ---
 
-**End of Product 0005 (v0.2)**
+**End of Product 0005 (v0.3)**
