@@ -1,6 +1,6 @@
 # Product 0005 — Admission and Registration Primitive
 
-**Version:** 0.1  
+**Version:** 0.2  
 **Status:** Candidate productive primitive  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -81,10 +81,4 @@ This productive primitive is itself a product and must be admitted and registere
 
 ---
 
-## NOTE (intentional invalid change)
-
-This sentence was added without a version increment to test version discipline.
-
----
-
-**End of Product 0005 (v0.1)**
+**End of Product 0005 (v0.2)**
