@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 1.4  
+**Version:** 1.5  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -149,6 +149,14 @@ A product exists within the ecology if and only if it is recorded in this regist
 - **Admitted by:** Founding authority
 - **Notes:** Properly admitted form of externally originated material
 
+### Entry 0018
+- **Product ID:** PRODUCT-0018
+- **Name:** Reproduction Test Product
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Produced deliberately via Product 0005 (reproduction test)
+
 ---
 
-**End of Product 0002 (v1.4)**
+**End of Product 0002 (v1.5)**
