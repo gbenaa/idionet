@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 1.0  
+**Version:** 1.2  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -23,6 +23,7 @@ A product exists within the ecology if and only if it is recorded in this regist
 - Entries may not be removed or rewritten.
 - Corrections occur only by additional entries.
 - This register is itself subject to these rules.
+- There is exactly one canonical Product Register: this product.
 
 ---
 
@@ -116,6 +117,22 @@ A product exists within the ecology if and only if it is recorded in this regist
 - **Admitted by:** Founding authority
 - **Notes:** Records invalid reference to unregistered artefact PRODUCT-0010
 
+### Entry 0011-R1
+- **Product ID:** PRODUCT-0011
+- **Name:** Invalid Reference Test
+- **Version admitted:** 0.2
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Revision recorded: reference to PRODUCT-0010 is now valid
+
+### Entry 0015
+- **Product ID:** PRODUCT-0015
+- **Name:** Authority Fork Violation Record (Second Register Attempt)
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Records attempted fork of Product Register authority via PRODUCT-0014
+
 ---
 
-**End of Product 0002 (v1.0)**
+**End of Product 0002 (v1.2)**
