@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 0.8  
+**Version:** 0.9  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -92,6 +92,22 @@ A product exists within the ecology if and only if it is recorded in this regist
 - **Admitted by:** Founding authority
 - **Notes:** Records invalid revision without version bump
 
+### Entry 0011
+- **Product ID:** PRODUCT-0011
+- **Name:** Invalid Reference Test
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** References unregistered artefact PRODUCT-0010 as a violation test
+
+### Entry 0012
+- **Product ID:** PRODUCT-0012
+- **Name:** Invalid Reference Violation Record (Product 0011 -> PRODUCT-0010)
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Records invalid reference to unregistered artefact PRODUCT-0010
+
 ---
 
-**End of Product 0002 (v0.8)**
+**End of Product 0002 (v0.9)**
