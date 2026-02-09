@@ -1,0 +1,11 @@
+{
+  "product_id": "PRODUCT-0003A",
+  "name": "Non-Text Test Artefact",
+  "version": "0.1",
+  "status": "Admitted",
+  "authority": "Sandboxed Production Ecology",
+  "governing_specification": "PRODUCT-0001 v0.1",
+  "purpose": "Demonstrate that a product may be non-text and still be governed, versioned, and admitted.",
+  "created_date": "2026-02-09",
+  "notes": "This artefact is intentionally minimal and is not meant to be useful. Its function is to test the product abstraction across media types."
+}
