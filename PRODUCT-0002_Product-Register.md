@@ -1,6 +1,6 @@
 # Product 0002 — Product Register
 
-**Version:** 0.6  
+**Version:** 0.7  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
 **Governing specification:** Product 0001 v0.1  
@@ -76,6 +76,14 @@ A product exists within the ecology if and only if it is recorded in this regist
 - **Admitted by:** Founding authority
 - **Notes:** Records and deprecates unregistered PRODUCT-0006
 
+### Entry 0008
+- **Product ID:** PRODUCT-0008
+- **Name:** Invalid Registration Attempt Record (Unadmitted Draft)
+- **Version admitted:** 0.1
+- **Admission date:** 2026-02-09
+- **Admitted by:** Founding authority
+- **Notes:** Records attempted registration without admission
+
 ---
 
-**End of Product 0002 (v0.6)**
+**End of Product 0002 (v0.7)**
