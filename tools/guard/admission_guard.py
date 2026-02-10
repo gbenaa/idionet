@@ -15,11 +15,11 @@ def run(cmd: list[str]) -> str:
 def git_changed_files(base_ref: str | None) -> list[str]:
     # = Determine change set
     # -> In PR context, compare base branch to current HEAD.
-    # -> In push/manual context, fall back to working tree diff against HEAD.
+    # -> In push/manual context, compare HEAD~1..HEAD as a best-effort default.
     if base_ref:
         out = run(["git", "diff", "--name-only", f"{base_ref}...HEAD"])
     else:
-        out = run(["git", "diff", "--name-only", "HEAD"])
+        out = run(["git", "diff", "--name-only", "HEAD~1..HEAD"])
 
     files = [line.strip() for line in out.splitlines() if line.strip()]
     return files
@@ -27,7 +27,7 @@ def git_changed_files(base_ref: str | None) -> list[str]:
 
 def detect_candidate_products(files: list[str]) -> list[str]:
     # = Candidate products
-    # -> Any file whose basename starts with PRODUCT- is treated as a product-bearing artefact.
+    # -> Any file whose basename starts with PRODUCT- is treated as product-bearing.
     candidates = []
     for f in files:
         base = os.path.basename(f)
@@ -38,7 +38,6 @@ def detect_candidate_products(files: list[str]) -> list[str]:
 
 def main() -> int:
     # = Identify base ref if running in GitHub Actions PR context
-    # -> GITHUB_BASE_REF is set for pull_request events.
     base_ref = os.environ.get("GITHUB_BASE_REF")
     if base_ref:
         base_ref = f"origin/{base_ref}"
@@ -50,18 +49,35 @@ def main() -> int:
         return 2
 
     candidates = detect_candidate_products(changed_files)
+    register_path = "PRODUCT-0002_Product-Register.md"
+    register_changed = register_path in changed_files
 
-    print("Admission Guard: rule set v0.1")
+    errors: list[str] = []
+
+    print("Admission Guard: rule set v0.2")
     print(f"Changed files: {len(changed_files)}")
     print(f"Candidate product files: {len(candidates)}")
 
     if candidates:
-        print("NOTICE: Candidate product-bearing changes detected:")
+        print("Candidate product-bearing changes detected:")
         for f in candidates:
             print(f" - {f}")
 
-    # = No enforcement yet
-    # -> Always pass at this stage
+        # = Blocking Rule 1: admission implies register coupling
+        # -> If any PRODUCT-* file changes, the canonical Product Register must change too.
+        if not register_changed:
+            errors.append(
+                "Product-bearing changes detected but Product Register was not updated. "
+                f"Expected change to: {register_path}"
+            )
+
+    if errors:
+        print("COMMIT/PR REJECTED: Admission Guard violation(s)")
+        for e in errors:
+            print(f"- {e}")
+        return 1
+
+    print("Admission Guard: PASS")
     return 0
 
 
