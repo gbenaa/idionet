@@ -1,78 +1,53 @@
-# Product 0001 — Product Specification
+# Product 0001 — Product Specification and Admission Protocol
 
 **Version:** 0.1  
 **Status:** Admitted  
 **Authority:** Sandboxed Production Ecology  
-**Revision mode:** Revision-only (no replacement)
+**Revision mode:** Constitutional change only
 
 ---
 
-## 1. Identity
+## Purpose
 
-This document is an admitted product of the Sandboxed Production Ecology.
+This product defines what counts as a product within the Sandboxed Production Ecology.
 
-It defines the minimal conditions under which any artefact may be admitted as a product within the ecology, including itself.
+It specifies product standing, admission, registration, revision, authority, violation handling, boundary conditions, and constitutional change.
 
-This specification is authoritative until revised under the rules it declares.
+This specification formalises governance that was exercised in practice prior to its admission.
 
----
-
-## 2. Definition of a Product
-
-A product is a structured, durable artefact that:
-
-- is explicitly admitted to the ecology,
-- persists independently of the agent(s) that produced it,
-- may be revised but not replaced,
-- carries provenance and revision history,
-- may circulate beyond the ecology through governed channels,
-- may serve as an input to other products.
-
-Artefacts that are not admitted are not products of the ecology.
+It does not retroactively govern past actions and does not invalidate previously admitted products.
 
 ---
 
-## 3. Required Properties of All Products
+## Bootstrap Statement
 
-Every admitted product must have, at minimum:
+Governance within the ecology was operationally enforced before this specification existed as an admitted product.
 
-- a unique identifier,
-- a declared scope,
-- a declared status,
-- an explicit admission event,
-- a revision history,
-- an owning authority within the ecology.
+This document is admitted post hoc to stabilise, render inspectable, and bind rules already demonstrated in operation.
 
-If any of these properties are absent, the artefact is not a valid product.
+This condition is preserved as provenance and does not constitute a general precedent.
 
 ---
 
-## 4. Permitted Operations on Products
+## Scope
 
-The only permitted operations on an admitted product are:
+This specification governs all products admitted after its admission date.
 
-- admission,
-- revision,
-- completion,
-- deprecation.
-
-Replacement, erasure, or substitution of an admitted product is not permitted.
+Previously admitted products retain their standing.
 
 ---
 
-## 5. Governance
+## Authority
 
-Admission and revision of products occur only within the governed container of the Sandboxed Production Ecology.
+Authority resides exclusively within the Sandboxed Production Ecology.
 
-Disputes regarding scope, authority, or validity are resolved internally according to declared governance rules, as revised over time.
+This specification is self-governing from the moment of admission.
 
 ---
 
-## 6. Self-Application
+## Constitutional Constraint
 
-This specification is itself a product and is subject to the rules it defines.
-
-Any change to this document must occur as a revision to this product.
+Changes to this product constitute constitutional change and must be explicitly declared as such.
 
 ---
 
