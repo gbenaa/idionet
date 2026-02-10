@@ -52,3 +52,5 @@ Changes to this product constitute constitutional change and must be explicitly 
 ---
 
 **End of Product 0001 (v0.1)**
+
+Deliberate test line to trigger admission guard failure.
