@@ -1,0 +1,1 @@
+Trigger CI so the admission-guard status check becomes selectable in branch protection.
