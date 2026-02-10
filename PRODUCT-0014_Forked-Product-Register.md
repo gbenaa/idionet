@@ -1,7 +1,11 @@
-# Product 0014 — Forked Product Register (Invalid)
+# Product 0014 — Forked Product Register
 
-**Version:** 0.1  
-**Status:** Draft (Invalid)  
-**Authority:** None  
-**Notes:** This file is an intentional violation test. A second product register must not be permitted to have standing.
+**Status:** Forked / Non-governing  
+**Relationship:** Fork of Product 0002  
+**Authority:** Explicitly denied  
+**Governing Force:** None  
+**Purpose:** Demonstration of fork, violation, or alternative register form  
+**Notes:** This artefact does not exercise governance over the ecology
+
+---
 

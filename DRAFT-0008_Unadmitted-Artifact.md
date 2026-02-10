@@ -1,6 +1,10 @@
 # DRAFT-0008 — Unadmitted Artefact
 
-This file is intentionally not admitted as a product.
+**Status:** Unadmitted  
+**Role:** Exploratory / preparatory  
+**Admissibility:** Not admissible as a product in current form  
+**Authority:** None  
+**Notes:** Retained for inspection, reference, and potential future transformation
 
-It exists to test whether the ecology can prevent registration without admission.
+---
 
