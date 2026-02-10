@@ -80,3 +80,11 @@ A product exists within the ecology if and only if it is recorded in this regist
 ---
 
 **End of Product 0002 (v1.6)**
+
+### Entry TEST-ADMISSION-GUARD
+- **Product ID:** PRODUCT-0001
+- **Name:** Product Specification
+- **Version admitted:** unchanged
+- **Admission date:** 2026-02-10
+- **Admitted by:** Founding authority
+- **Notes:** Test remediation entry to satisfy Admission Guard coupling rule
